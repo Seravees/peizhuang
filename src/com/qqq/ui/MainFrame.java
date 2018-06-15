@@ -31,19 +31,63 @@ public class MainFrame {
 
 		JPanel jp_skill = new JPanel();
 		jp_skill.setLayout(new FlowLayout());
-		jp_skill.setBounds(0, 0, 150, 100);
+		jp_skill.setBounds(0, 0, 150, 400);
+
 		JComboBox<Object> jcb1 = new JComboBox<Object>();
+		jcb1.addItem("选择技能");
 		for (Skills s : skills) {
 			jcb1.addItem(s.getName());
 		}
 		jp_skill.add(jcb1);
 		
 		JComboBox<Object> jcb2 = new JComboBox<Object>();
+		jcb2.addItem("选择技能");
 		for (Skills s : skills) {
 			jcb2.addItem(s.getName());
 		}
 		jp_skill.add(jcb2);
+		
+		JComboBox<Object> jcb3 = new JComboBox<Object>();
+		jcb3.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb3.addItem(s.getName());
+		}
+		jp_skill.add(jcb3);
 
+		JComboBox<Object> jcb4 = new JComboBox<Object>();
+		jcb4.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb4.addItem(s.getName());
+		}
+		jp_skill.add(jcb4);
+
+		JComboBox<Object> jcb5 = new JComboBox<Object>();
+		jcb5.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb5.addItem(s.getName());
+		}
+		jp_skill.add(jcb5);
+
+		JComboBox<Object> jcb6 = new JComboBox<Object>();
+		jcb6.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb6.addItem(s.getName());
+		}
+		jp_skill.add(jcb6);
+
+		JComboBox<Object> jcb7 = new JComboBox<Object>();
+		jcb7.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb7.addItem(s.getName());
+		}
+		jp_skill.add(jcb7);
+
+		JComboBox<Object> jcb8 = new JComboBox<Object>();
+		jcb8.addItem("选择技能");
+		for (Skills s : skills) {
+			jcb8.addItem(s.getName());
+		}
+		jp_skill.add(jcb8);
 
 		contentPane = new JPanel();
 		contentPane.setLayout(null);
